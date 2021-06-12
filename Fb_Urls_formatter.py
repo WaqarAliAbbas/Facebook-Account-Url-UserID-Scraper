@@ -1,4 +1,4 @@
--- Developer Waqar Ali Abbas --
+# -- Developer Waqar Ali Abbas --
 file_var=input("Enter File Name With .txt Extension:  ")
 with open(file_var,"r",encoding="UTF") as f:
     a=f.readlines()
