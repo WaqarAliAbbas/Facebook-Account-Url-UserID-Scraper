@@ -1,8 +1,8 @@
 # -- Developer Waqar Ali Abbas --
 filename=input("Enter file name with .txt extension:  ")
-with open(file_var,"r",encoding="UTF") as f:
+with open(filename,"r",encoding="UTF") as f:
     a=f.readlines()
-with open(filename,"a",encoding="UTF-8") as f:
+with open("saverecords.txt","a",encoding="UTF-8") as f:
     for i in a:
         if "profile.php?id" in i:
             b=i.split("=")
